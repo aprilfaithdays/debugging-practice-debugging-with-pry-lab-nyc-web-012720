@@ -20,6 +20,12 @@ end
 #   greeting
 # end
 
+def greet_crew (crew)
+  crew.map do |crew_member| 
+    greeting << "Hello #{crew_member}."
+  end
+end
+
 def engage
   date = generate_star_date
   state_log(date)
