@@ -12,13 +12,13 @@ def crew
   ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
 end
 
-def greet_crew (crew)
-  greeting = []
-  crew.each do |crew_member| 
-    greeting << "Hello #{crew_member}."
-  end
-  greeting
-end
+# def greet_crew (crew)
+#   greeting = []
+#   crew.each do |crew_member| 
+#     greeting << "Hello #{crew_member}."
+#   end
+#   greeting
+# end
 
 def engage
   date = generate_star_date
